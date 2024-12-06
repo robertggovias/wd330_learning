@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "express": "^4.21.1",
+    "parcel": "^2.13.2"
+  },
+  "name": "wd330_learning",
+  "description": "practicing json fetch ajax api POO",
+  "version": "1.0.0",
+  
+  "devDependencies": {
+    "parcel": "^9.6.7"    
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+
+ 
+    
+  },
+  "author": "Robert Govia Suarez at BYU Idaho",
+  "license": "ISC"
+}
