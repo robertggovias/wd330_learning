@@ -1,16 +1,44 @@
 <!DOCTYPE html>
+
 <head>
+    <link rel="stylesheet" href="./practice/dom_practice/stylesForDom.css">
 
 </head>
 <body>
+    <button id="bomba" onclick="boom()">no tocar</button>
+    <ol id="ol">
+  <li>0</li>
+  <li>1</li>
+  <li>2</li>
+</ol>
+<div id="sessionCaja">la caja</div>
+    <div>I'm a div</div>    
     <div id="pajarito"></div>
     <div id="pepino"></div>
     <div id="pepe"></div>
+    <div id="objeto_importado">objeto</div>
+    
     <canvas id="pintura" width="455" height="145"></canvas>
     <canvas id="pinturita" width="155" height="105"></canvas>
     <button onclick="getLocation()">Try It</button>
-    <p id="geo"></p>
+    <p id="geo"></p>    
     <div id="datosFetch"></div>
+    <script type="module" src="./practice/modules/asterisco_export.js"></script>
+    <script type="module" src="./practice/modules/asterisco_import.js"></script>
+    <script type="module" src="./practice/modules/import_before_declarations.js"></script>
+    <script type="module" src="./practice/modules/export_before_declaration.js"></script>
+    <script type="module" src="./practice/modules/import_object.js"></script>
+    <script type="module" src="./practice/modules/export_object.js"></script>
+    <script type="module" src="./practice/modules/module_to_export.js"></script>
+    <script type="module" src="./practice/modules/module_to_import.js"></script>
+    <script src="./practice/local_storage/session_storage.js"></script>
+    <script src="./practice/local_storage/string_only.js"></script>
+    <script src="./practice/local_storage/looping_over_keys.js"></script>
+    <script src="./practice/local_storage/local_storage_demo.js"></script>
+    <script src="./practice/dom_practice/cloning_node.js"></script>
+    <script src="./practice/dom_practice/node_removal.js"></script>
+    <script src="./practice/dom_practice/insertAdjacentHTML_Text_Element.js"></script>
+    <script src="./practice/dom_practice/create-insertion_method.js"></script>
     <script src="./practice/fetchApi/fetch_then.js"></script>
     <script src="./practice/functions/webApi/geoApi.js"></script>
     <script src="./practice/functions/intro/tointro.js"></script>

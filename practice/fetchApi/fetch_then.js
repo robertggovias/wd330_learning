@@ -7,13 +7,11 @@ async function obtenDatos () {
     try{
         const respuesta = await fetch(url);
         const datos = await respuesta.json();
-        const htmlInfo = datos
-            .map((post) => `<h1>el titulo</h1></br><p> ${post.title}</p></br>`)
-            .join("");
+        const htmlInfo = datos.map((post) => `<h1>el titulo</h1></br><p> ${post.title}</p></br>`).join(""); 
 
             salidaInfo.innerHTML = htmlInfo;
 
-        //console.log(datos);
+        //console.log(datos);        
     } catch (error){
         console.error("Houston SOS este es el problema",error);
         salidaInfo = "<p>error se daño la computdora</p>"
